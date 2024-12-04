@@ -1,8 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import './LoginPage.css'
-import SomaiyaLogo from '../assets/SomaiyaLogo.jpg';
-import Ganesh from '../assets/Ganesh.png'
+import SomaiyaLogo from '../../assets/SomaiyaLogo.jpg';
+import Ganesh from '../../assets/Ganesh.png'
 const LoginPage = () => {
   const navigate=useNavigate();
   const handleLogin=()=>{
