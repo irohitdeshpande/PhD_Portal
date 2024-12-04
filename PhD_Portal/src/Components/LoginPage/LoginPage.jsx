@@ -1,15 +1,22 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import './LoginPage.css'
 import SomaiyaLogo from '../assets/SomaiyaLogo.jpg';
 import Ganesh from '../assets/Ganesh.png'
 const LoginPage = () => {
+  const navigate=useNavigate();
+  const handleLogin=()=>{
+    navigate('/dashboard')
+  };
+
+
   return (
     <>
       <div className='LoginPage'>
         <div className='LoginSide'>
             <img src={SomaiyaLogo} alt="Somaiya Logo" className='SomaiyaLogo'/>
             Login to Portal!
-            <button className='LoginBtn'>Login</button>
+            <button className='LoginBtn' onClick={handleLogin}>Login</button>
         </div>
         <div className='ImageSide'>
           <img src={Ganesh} alt="Ganesh img" className='GaneshImg'/>
