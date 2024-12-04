@@ -1,0 +1,39 @@
+
+
+.LoginPage{
+    display: flex;
+    flex-direction: row;
+}
+
+.LoginSide{
+    background-color: white;
+    width: 60vw;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 35px;
+}
+.SomaiyaLogo{
+    width: 90px;
+    padding: 10px;
+}
+.LoginBtn{
+    width: 225px;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.ImageSide{
+    background-color: #780000;
+    width: 40vw;
+    min-height: 100vh;
+}
+
+.GaneshImg{
+    width: 550px;
+}
